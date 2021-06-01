@@ -48,9 +48,10 @@ En el siguiente JSON Body, hay un formato de encuesta de 5 preguntas, en donde s
 JSON Body:
 
     {
-    	"questions":[
+    	"questions": [
     	{
     		"questionOptions": {
+            
     			"question":"<<Digita aquí la pregunta 1>>",
     			"optionA": false,
             	"optionB": false,
