@@ -48,56 +48,51 @@ En el siguiente JSON Body, hay un formato de encuesta de 5 preguntas, en donde s
 JSON Body:
 
     {
-    	"questions": [
-    	{
-    		"questionOptions": {
-            
-    			"question":"<<Digita aquí la pregunta 1>>",
-    			"optionA": false,
-            	"optionB": false,
-            	"optionC": false,
-            	"optionD": false
-    		}
-    		
-    	},
-    	{
-    		"questionOptions": {
-    			"question":"<<Digita aquí la pregunta 2>>",
-    			"optionA": false,
-            	"optionB": false,
-            	"optionC": false,
-            	"optionD": false
-    		}
-    		
-    	},
-    	{
-    		"questionOptions": {
-    			"question":"<<Digita aquí la pregunta 3>>",
-    			"optionA": false,
-            	"optionB": false,
-            	"optionC": false,
-            	"optionD": false
-    		}
-    	},
-    	{
-    		"questionOptions": {
-    			"question":"<<Digita aquí la pregunta 4>>",
-    			"optionA": false,
-            	"optionB": false,
-            	"optionC": false,
-            	"optionD": false
-    		}
-    	},
-    	{
-    		"questionOptions": {
-    			"question":"<<Digita aquí la pregunta 5>>",
-    			"optionA": false,
-            	"optionB": false,
-            	"optionC": false,
-            	"optionD": false
-    		}
-    	}	
-    	]
+        "questions": [{
+                "questionOptions": {
+
+                    "question": "<<Digita aquí la pregunta 1>>",
+                    "optionA": false,
+                    "optionB": false,
+                    "optionC": false,
+                    "optionD": false
+                }
+
+            }, {
+                "questionOptions": {
+                    "question": "<<Digita aquí la pregunta 2>>",
+                    "optionA": false,
+                    "optionB": false,
+                    "optionC": false,
+                    "optionD": false
+                }
+
+            }, {
+                "questionOptions": {
+                    "question": "<<Digita aquí la pregunta 3>>",
+                    "optionA": false,
+                    "optionB": false,
+                    "optionC": false,
+                    "optionD": false
+                }
+            }, {
+                "questionOptions": {
+                    "question": "<<Digita aquí la pregunta 4>>",
+                    "optionA": false,
+                    "optionB": false,
+                    "optionC": false,
+                    "optionD": false
+                }
+            }, {
+                "questionOptions": {
+                    "question": "<<Digita aquí la pregunta 5>>",
+                    "optionA": false,
+                    "optionB": false,
+                    "optionC": false,
+                    "optionD": false
+                }
+            }
+        ]
     }
 
 Si se quieren generar encuestas de menos o más preguntas, se pueden agregar o remover mas objetos de tipo "questionOptions".
